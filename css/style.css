@@ -977,6 +977,36 @@ h1, h2, h3, h4, h5, h6, figure {
   transition: 0.5s;
 }
 
+
+
+footer {
+
+  position: fixed;
+
+  bottom: 0;
+
+  width: 100%;
+
+  text-align: center;
+
+  background-color: white; /* Colore di sfondo opzionale */
+
+  padding: 10px 0; /* Spaziatura verticale */
+
+}
+
+
+
+.footer-text {
+
+  font-size: 16px; /* Dimensione del testo */
+
+  color: #333; /* Colore del testo */
+
+  margin: 0;
+
+}
+
 #fh5co-footer {
   padding: 50px 0;
   float: left;
