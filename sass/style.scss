@@ -218,6 +218,7 @@ h1, h2, h3, h4, h5, h6, figure {
 					width: 30px;
 					height: 4px;
 					content: '';
+					display: none;
 					background: $brand-white;
 					margin-left: -30px;
 				}
@@ -228,6 +229,7 @@ h1, h2, h3, h4, h5, h6, figure {
 					width: 30px;
 					height: 4px;
 					content: '';
+					display: none;
 					background: $brand-white;
 					margin-right: -30px;
 				}
