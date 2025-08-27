@@ -427,6 +427,30 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 12px;
   letter-spacing: 2px;
 }
+/* Skills pills */
+.skills-line {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill-pill {
+    background-color: #FF9000; /* colore coerente con il tuo tema */
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: transform 0.2s;
+}
+
+.skill-pill:hover {
+    transform: scale(1.1);
+    cursor: default;
+}
+
 
 .timeline {
   list-style: none;
